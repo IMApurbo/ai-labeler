@@ -59,18 +59,19 @@ python ai-labeler(all-in-one).py
 
 ## Folder Structure
 ```
-ai-labeler/
-├── ai-labeler/           
-│   ├── __init__.py       
-│   ├── annotation_saver.py
-│   ├── annotator.py
-│   ├── labeler.py
-│   ├── model_loader.py   
-│   └── utils.py     
-├── gui.py
-├── ai-labeler(all-in-one).py       
-├── README.md        
-└── requirements.txt   
+ai-labeler/                  # Root directory of the AI Labeler project
+├── ai-labeler/              # Core package containing the main modules
+│   ├── __init__.py          # Package initializer for the `ai-labeler` module
+│   ├── annotation_saver.py  # Handles saving annotations in the desired format
+│   ├── annotator.py         # Main annotation logic for labeling images or data
+│   ├── labeler.py           # Core labeler class to interface with the GUI and model
+│   ├── model_loader.py      # Responsible for loading and managing AI models
+│   └── utils.py             # Utility functions for file handling, image processing, etc.
+├── gui.py                   # Script to create and manage the graphical user interface (GUI)
+├── ai-labeler(all-in-one).py # All-in-one script combining all modules for standalone execution
+├── README.md                # Documentation file explaining the project's purpose, usage, and setup
+└── requirements.txt         # List of dependencies required to run the project
+
 ```
 
 ## Screenshots
