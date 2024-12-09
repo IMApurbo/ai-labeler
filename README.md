@@ -75,7 +75,7 @@ ai-labeler/                  # Root directory of the AI Labeler project
 ```
 
 ## Screenshots
-Add screenshots of your GUI in action to help users visualize its functionality.
+![Screenshot_2024-12-08_23_46_55](https://github.com/user-attachments/assets/10ddb57b-0506-447b-a125-11a0bcfc7d04)
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
